@@ -1,0 +1,597 @@
+@font-face {
+    font-family: dark;
+    src: url(/RightGrotesk-CompactBlack.otf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(/RightGrotesk-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#page1 {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    /* background-size: cover; */
+    background-position: top left;
+    padding: 0.1px;
+    position: relative;
+}
+
+#nav {
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-top: 25px;
+    position: fixed;
+    z-index: 999999;
+}
+
+#nav h1 i {
+    color: white;
+    font-size: 40px;
+}
+
+#nav img {
+    width: 180px;
+}
+
+#nav #bothlogo {
+    width: 110px;
+    height: 50px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+#and {
+    /* background-color: white; */
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border-left: 2px solid white;
+    margin-top: 15px;
+    color: white;
+    /* margin-right: 2px; */
+}
+
+#and img {
+    width: 30px;
+}
+
+#bothlogo #apple i {
+    font-size: 30px;
+    color: white;
+}
+
+#bothlogo #apple {
+    width: 30%;
+    height: 50%;
+    /* background-color:gray; */
+    margin-left: 4px;
+    margin-top: 8px;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#center h1 {
+    font-size: 150px;
+    text-align: center;
+    font-family: dark;
+    line-height: 130px;
+    color: #FFE30A;
+}
+
+#page2 {
+    width: 100%;
+    height: 180vh;
+    background-color: #FFE30A;
+    position: relative;
+    overflow: hidden;
+}
+
+#left-text {
+    /* background-color: red; */
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+
+#left-text h1 {
+    font-size: 120px;
+    color: black;
+    font-family: dark;
+    line-height: 115px;
+
+}
+
+#btm-btn {
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+#page2 #phone {
+    position: absolute;
+    height: 100vh;
+    top: 8%;
+    left: 55%;
+}
+
+#page2 #thats {
+    position: absolute;
+    top: 18%;
+    right: 13.5%;
+    width: 200px;
+}
+
+#page2 #join {
+    position: absolute;
+    top: 27%;
+    width: 280px;
+    left: 45%;
+}
+
+#page2 #hey {
+    position: absolute;
+    top: 42.5%;
+    width: 200px;
+
+}
+
+#robot {
+    position: absolute;
+    top: 48%;
+    width: 200px;
+    right: 10%;
+}
+
+#page2 #lets {
+    position: absolute;
+    top: 42%;
+    width: 170px;
+    right: 5%;
+}
+
+#black {
+    position: absolute;
+    /* top: 75%; */
+    /* left: 0; */
+    margin-top: -355px;
+    width:100%;
+    /* height: 400%; */
+    /* height: 300%; */
+    /* z-index: -1; */
+}
+
+#page3 {
+    width: 100%;
+    /* height: 400%; */
+    background-color: #151400;
+    position: relative;
+    overflow: hidden;
+}
+
+#page3 #top {
+    gap: 170px;
+    /* background-color: red; */
+    /* display: inline-block; */
+    display: flex;
+    width: 80%;
+    margin-left: 180px;
+    /* margin-top: -10px; */
+}
+
+#page3 #top h1 {
+    font-size: 130px;
+    color: #FFE30A;
+    font-family: dark;
+    line-height: 120px;
+    margin-top: 50px;
+}
+
+#page3 #top-left h3 {
+    font-size: 28px;
+    color: white;
+    font-family: light;
+    font-weight: 400;
+    margin-top: 40%;
+}
+#page3 #top-left button{
+    padding: 15px 20px;
+    background-color: #FFE30A;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;    
+    font-family: dark;
+    font-family: light;
+    border-radius: 30px;
+    border: none;
+    margin-top: 40px;
+}
+#middel{
+    width: 35%;
+    height: 100vh;
+    /* background-color: red; */
+    margin-left: 50%;
+    margin-top: 15%;
+    border-radius: 10px;
+    background-image: url(/girl.webp);
+    background-size: cover;
+
+}
+
+#page3 #you{
+    width: 300px;
+    position: absolute;
+    top: 36%;
+    left: 20%;
+}
+
+#middel-text{
+    width: 30%;
+    height: 500px;
+    /* background-color:    rebeccapurple; */
+    margin-top: -25%;
+    margin-left: 13%;
+}
+#middel-text h3{
+    font-size: 30px;
+    font-family: light;
+    font-weight: 400;
+    color: white;
+}
+#middel-text button{
+    padding: 18px 35px;
+    color: black;
+    background-color: #FFE30A;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: none;
+    font-size: 16px;
+    font-family: light;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#text-yubo{
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#text-yubo h1{
+    font-size: 120px;
+    font-family: dark;
+    color: #FFE30A;
+    margin-left: -40px;
+
+}
+
+#text-yubo span img{
+    width: 75px;
+}
+#text-yubo button{
+    padding: 18px 33px;
+    border-radius: 30px;
+    background-color: #FFE30A;
+    color: black;
+    font-family: dark;
+    border: none;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#purpule{
+    width: 100%;
+    position: absolute;
+    margin-top: -40px;
+    z-index: 9;
+    /* height: 100%; */
+}
+
+
+#page4{
+    width: 100%;
+    height: 100%;
+    background-color:#151400;
+position: relative;
+/* z-index: 999; */
+}
+
+#page4 #box1{
+    width: 35%;
+    height: 450px;
+        /* background-color: red; */
+    z-index: 99;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    left: 48%;
+    /* top: 10%; */
+    background-image: url(https://images.prismic.io/yubo/4e7a5333-9e65-4a60-a2d1-7b9680e002f2_Blog_CommunityTipsAndTricks.png?auto=compress,format);
+    background-size:cover;
+    background-position: top;
+}
+
+#page4 #box1 button{
+    padding: 13px 20px;
+    background-color: #FF5252;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    margin: 15px 25px;
+    font-family: dark;
+    font-size: 18px;
+}
+
+#page4 #box1 h1{
+    font-size: 48px;
+    font-family: dark;
+    color: white;
+    margin-top: 35%;
+    margin-left: 20px;
+}
+#page4 #box1 h4 img{
+    width: 30px;
+    filter: invert();
+    /* margin-top: 5px; */
+    margin-left: 18px;
+
+}
+#page4 #box1 h4{
+    font-size: 15px;
+    color: white;
+    font-family: light;
+    margin-top: 5/px;
+}
+
+#page4 #box2{
+    width: 25%;
+    height: 450px;
+        /* background-color: red; */
+    z-index: 99;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    left: 13%;
+    top: 35%;
+    background-image: url(https://images.prismic.io/yubo/42e1a41b-e054-4f52-a214-e3ea5e475aa4_Blog_Yubo+Horoscope.png?auto=compress,format);
+    background-size:cover;
+    background-position: top;
+}
+
+#page4 #box2 button{
+    padding: 13px 20px;
+    background-color: #8E6BFF;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 70%;
+    font-family: dark;
+    font-size: 18px;
+}
+
+#page4 #box2 h1{
+    font-size: 48px;
+    font-family: dark;
+    color: white;
+    margin-top: 75%;
+    margin-left: 20px;
+}
+#page4 #box2 h4 img{
+    width: 30px;
+    filter: invert();
+    /* margin-top: 5px; */
+    margin-left: 18px;
+
+}
+#page4 #box2 h4{
+    font-size: 15px;
+    color: white;
+    font-family: light;
+    margin-top: 40px;
+}
+
+
+#page4 #box3{
+    width: 30%;
+    height: 450px;
+        /* background-color: red; */
+    z-index: 99;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    left: 55%;
+    top: 85%;
+    background-image: url(https://images.prismic.io/yubo/f34dcf26-d146-4205-ab86-46e4daef0781_Blog_Community+Building+and+Making+Friends+on+Yubo.png?auto=compress,format);
+    background-size:cover;
+    background-position: top;
+}
+
+#page4 #box3 button{
+    padding: 13px 20px;
+    background-color: #FFE30A;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    font-family: dark;
+    margin: 15px 25px;
+    /* margin-left: 0%; */
+    font-size: 18px;
+}
+
+#page4 #box3 h1{
+    font-size: 48px;
+    font-family: dark;
+    color: white;
+    margin-top: 30%;
+    margin-left: 20px;
+    line-height: 45px;
+}
+#page4 #box3 h4 img{
+    width: 30px;
+    filter: invert();
+    /* margin-top: 5px; */
+    margin-left: 18px;
+
+}
+#page4 #box3 h4{
+    font-size: 15px;
+    color: white;
+    font-family: light;
+    margin-top: 35px;
+}
+
+#page4 #hello{
+    z-index: 99999;
+    position: absolute;
+    top: 170%;
+    left: 26%;
+}
+
+#footer{
+    position: absolute;
+    top: 215%;
+    z-index: 9999;
+    width: 100%;
+}
+
+#page5{
+    width: 100%;
+    height: 66%;
+    background-color: #FFE30A;
+    position: relative;
+    top: 215%;
+}
+
+#ftr{
+    z-index: 99999;
+    top: 239%;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    /* background-color: pink; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    
+}
+#ftr-text1{
+    font-size: 20.5px;
+    font-family: light;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+
+#ftr-text2{
+    font-size: 20.5px;
+    font-family: light;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+
+#ftr-text3{
+    font-size: 20.5px;
+    font-family: light;
+    font-weight: 100;
+    line-height: 45px;
+}
+#ftr-text4{
+    font-size: 20.5px;
+    font-family: light;
+    font-weight: 100;
+    line-height: 45px;
+}
+#ftr-text5{
+    font-size: 20.5px;
+    font-family: light;
+    font-weight: 900;
+    line-height: 45px;
+    /* font-family: Rightgrotesk; */
+}
+
+#social{
+    position: absolute;
+    top: 45%;
+    display: flex;
+    z-index: 99999999;
+    left: 37%;
+    gap: 20px;
+}
+#social i{
+    font-size: 50px;
+}
+
+#last-last{
+    position: absolute;
+    top: 85%;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 190px;
+}
+#last-last h4{
+    font-size: 18px;
+    font-family: dark;
+    margin-left: 40px;
+}
+#last-last h5{
+    font-size: 15px;
+    font-family: light;
+    margin-left: 30px;
+}
+#last-last h6{
+    font-size: 15px;
+    font-family: light;
+    margin-left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
